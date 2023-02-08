@@ -1,0 +1,29 @@
+<!-- represents a doc section containing interactive controls for submitting info
+the action attributes specifies where the form data should be sent 
+the method attribute specifies which http method should be used  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="/tacos">
+      <label for="input1"
+        >i am label with for
+        <input type="text" placeholder="input" id="input1" />
+      </label>
+      <!-- for will tell you the label is for which particular type -->
+      <label>
+        i am label without for
+        <input type="color" />
+      </label>
+
+      <!-- explore input types mdn mozilla -->
+
+      <button>submit</button>
+    </form>
+  </body>
+</html>
